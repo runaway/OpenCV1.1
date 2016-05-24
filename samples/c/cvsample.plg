@@ -1,0 +1,705 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libjasper - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP163C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "JAS_WIN_MSVC_BUILD" /Fp"..\..\..\..\_temp\libjasper_Debug/libjasper.pch" /YX /Fo"..\..\..\..\_temp\libjasper_Debug/" /Fd"..\..\..\..\_temp\libjasper_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_cm.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_debug.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_getopt.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_icc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_iccdata.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_image.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_init.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_malloc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_seq.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_stream.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_string.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_tmr.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_tvp.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_version.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_dec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_enc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_bs.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_dec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_math.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_mct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_mqcod.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_mqdec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_mqenc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_qmfb.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1dec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1enc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t2cod.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t2dec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t2enc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_tagtree.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_tsfb.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_util.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP163C.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP163D.tmp" with contents
+[
+/nologo /out:"..\..\lib\libjasperd.lib" 
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_cm.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_debug.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_getopt.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_icc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_iccdata.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_image.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_init.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_malloc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_seq.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_stream.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_string.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_tmr.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_tvp.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jas_version.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jp2_cod.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jp2_dec.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jp2_enc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_bs.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_cs.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_dec.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_enc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_math.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_mct.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_mqcod.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_mqdec.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_mqenc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_qmfb.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t1cod.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t1dec.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t1enc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t2cod.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t2dec.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_t2enc.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_tagtree.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_tsfb.obj"
+"\PR\OpenCV 1.1\_temp\libjasper_Debug\jpc_util.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP163D.tmp"
+<h3>Output Window</h3>
+Compiling...
+jas_cm.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_cm.c(563) : warning C4244: '=' : conversion from 'double ' to 'long ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_cm.c(923) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_cm.c(926) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+jas_debug.c
+jas_getopt.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_getopt.c(129) : warning C4013: 'jas_eprintf' undefined; assuming extern returning int
+jas_icc.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_icc.c(1604) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned short ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_icc.c(1614) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_icc.c(1623) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_icc.c(1641) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+jas_iccdata.c
+jas_image.c
+jas_init.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_image.c(172) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jas_image.c(672) : warning C4761: integral size mismatch in argument; conversion supplied
+jas_malloc.c
+jas_seq.c
+jas_stream.c
+jas_string.c
+jas_tmr.c
+jas_tvp.c
+jas_version.c
+jp2_cod.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(269) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(270) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(728) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(729) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+jp2_dec.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(729) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jp2_cod.c(729) : warning C4761: integral size mismatch in argument; conversion supplied
+jp2_enc.c
+jpc_bs.c
+jpc_cs.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(691) : warning C4244: 'function' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(825) : warning C4244: 'function' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(922) : warning C4244: 'function' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1283) : warning C4244: 'function' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1288) : warning C4244: 'function' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+jpc_dec.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(351) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(551) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(691) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(788) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(825) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(908) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(922) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1015) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1019) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1289) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_cs.c(1289) : warning C4761: integral size mismatch in argument; conversion supplied
+jpc_enc.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_dec.c(1180) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_dec.c(1521) : warning C4761: integral size mismatch in argument; conversion supplied
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(797) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(1033) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(1034) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(1392) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(1396) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(1399) : warning C4244: '=' : conversion from 'double ' to 'unsigned int ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2296) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2305) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2328) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2388) : warning C4018: '>' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2389) : warning C4018: '>' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2391) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2393) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2428) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2437) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2470) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2606) : warning C4018: '<' : signed/unsigned mismatch
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_enc.c(2612) : warning C4018: '<' : signed/unsigned mismatch
+jpc_math.c
+jpc_mct.c
+jpc_mqcod.c
+jpc_mqdec.c
+jpc_mqenc.c
+jpc_qmfb.c
+jpc_t1cod.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c(267) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c(269) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c(273) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c(275) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1cod.c(277) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+jpc_t1dec.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1dec.c(243) : warning C4013: 'jas_eprintf' undefined; assuming extern returning int
+jpc_t1enc.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_t1enc.c(141) : warning C4018: '<' : signed/unsigned mismatch
+jpc_t2cod.c
+jpc_t2dec.c
+jpc_t2enc.c
+jpc_tagtree.c
+jpc_tsfb.c
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_tsfb.c(124) : warning C4013: 'jpc_tsfb_analyze2' undefined; assuming extern returning int
+D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjasper\jpc_tsfb.c(151) : warning C4013: 'jpc_tsfb_synthesize2' undefined; assuming extern returning int
+jpc_util.c
+Creating library...
+<h3>
+--------------------Configuration: libjpeg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1640.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"..\..\..\..\_temp\libjpeg_Debug/libjpeg.pch" /YX /Fo"..\..\..\..\_temp\libjpeg_Debug/" /Fd"..\..\..\..\_temp\libjpeg_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcapimin.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcapistd.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jccoefct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jccolor.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcdctmgr.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jchuff.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcinit.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcmainct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcmarker.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcmaster.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcomapi.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcparam.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcphuff.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcprepct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jcsample.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jctrans.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdapimin.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdapistd.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdatadst.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdatasrc.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdcoefct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdcolor.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jddctmgr.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdhuff.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdinput.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdmainct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdmarker.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdmaster.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdmerge.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdphuff.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdpostct.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdsample.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jdtrans.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jerror.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jfdctflt.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jfdctfst.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jfdctint.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jidctflt.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jidctfst.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jidctint.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jidctred.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jmemansi.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jmemmgr.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jquant1.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jquant2.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\jutils.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libjpeg\transupp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1640.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1641.tmp" with contents
+[
+/nologo /out:"..\..\lib\libjpegd.lib" 
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcapimin.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcapistd.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jccoefct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jccolor.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcdctmgr.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jchuff.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcinit.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcmainct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcmarker.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcmaster.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcomapi.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcparam.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcphuff.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcprepct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jcsample.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jctrans.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdapimin.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdapistd.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdatadst.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdatasrc.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdcoefct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdcolor.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jddctmgr.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdhuff.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdinput.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdmainct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdmarker.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdmaster.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdmerge.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdphuff.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdpostct.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdsample.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jdtrans.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jerror.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jfdctflt.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jfdctfst.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jfdctint.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jidctflt.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jidctfst.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jidctint.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jidctred.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jmemansi.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jmemmgr.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jquant1.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jquant2.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\jutils.obj"
+"\PR\OpenCV 1.1\_temp\libjpeg_Debug\transupp.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1641.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jidctred.c
+jmemansi.c
+jmemmgr.c
+jquant1.c
+jquant2.c
+jutils.c
+transupp.c
+Creating library...
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1643.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"..\..\..\..\_temp\zlib_Debug/zlib.pch" /YX /Fo"..\..\..\..\_temp\zlib_Debug/" /Fd"..\..\..\..\_temp\zlib_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\adler32.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\compress.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\crc32.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\deflate.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\example.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\gzio.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\infback.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\inffast.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\inflate.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\inftrees.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\trees.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\uncompr.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1643.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1644.tmp" with contents
+[
+/nologo /out:"..\..\lib\zlibd.lib" 
+"\PR\OpenCV 1.1\_temp\zlib_Debug\adler32.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\compress.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\crc32.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\deflate.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\example.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\gzio.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\infback.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\inffast.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\inflate.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\inftrees.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\trees.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\uncompr.obj"
+"\PR\OpenCV 1.1\_temp\zlib_Debug\zutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1644.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+example.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+<h3>
+--------------------Configuration: libpng - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1645.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"..\..\..\..\_temp\libpng_Debug/libpng.pch" /YX /Fo"..\..\..\..\_temp\libpng_Debug/" /Fd"..\..\..\..\_temp\libpng_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\png.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngerror.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pnggccrd.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngget.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngmem.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngpread.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngread.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngrio.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngrtran.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngrutil.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngset.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngtrans.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngvcrd.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngwio.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngwrite.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngwtran.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libpng\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1645.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1646.tmp" with contents
+[
+/nologo /out:"..\..\lib\libpngd.lib" 
+"\PR\OpenCV 1.1\_temp\libpng_Debug\png.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngerror.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pnggccrd.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngget.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngmem.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngpread.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngread.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngrio.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngrtran.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngrutil.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngset.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngtrans.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngvcrd.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngwio.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngwrite.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngwtran.obj"
+"\PR\OpenCV 1.1\_temp\libpng_Debug\pngwutil.obj"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\zlibd.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1646.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pnggccrd.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Creating library...
+<h3>
+--------------------Configuration: libtiff - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1647.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"..\..\..\..\_temp\libtiff_Debug/libtiff.pch" /YX /Fo"..\..\..\..\_temp\libtiff_Debug/" /Fd"..\..\..\..\_temp\libtiff_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_aux.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_close.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_codec.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_color.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_compress.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_dir.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_dirinfo.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_dirread.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_dirwrite.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_dumpmode.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_error.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_extension.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_fax3.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_fax3sm.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_flush.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_getimage.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_jpeg.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_luv.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_lzw.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_next.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_ojpeg.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_open.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_packbits.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_pixarlog.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_predict.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_print.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_read.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_stream.cxx"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_strip.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_swab.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_thunder.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_tile.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_version.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_warning.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_win32.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_write.c"
+"D:\PR\OpenCV 1.1\otherlibs\_graphics\src\libtiff\tif_zip.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1647.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1648.tmp" with contents
+[
+/nologo /out:"..\..\lib\libtiffd.lib" 
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_aux.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_close.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_codec.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_color.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_compress.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_dir.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_dirinfo.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_dirread.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_dirwrite.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_dumpmode.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_error.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_extension.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_fax3.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_fax3sm.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_flush.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_getimage.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_jpeg.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_luv.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_lzw.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_next.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_ojpeg.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_open.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_packbits.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_pixarlog.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_predict.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_print.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_read.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_stream.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_strip.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_swab.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_thunder.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_tile.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_version.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_warning.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_win32.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_write.obj"
+"\PR\OpenCV 1.1\_temp\libtiff_Debug\tif_zip.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1648.tmp"
+<h3>Output Window</h3>
+Compiling...
+tif_aux.c
+tif_close.c
+tif_codec.c
+tif_color.c
+tif_compress.c
+tif_dir.c
+tif_dirinfo.c
+tif_dirread.c
+tif_dirwrite.c
+tif_dumpmode.c
+tif_error.c
+tif_extension.c
+tif_fax3.c
+tif_fax3sm.c
+tif_flush.c
+tif_getimage.c
+tif_jpeg.c
+tif_luv.c
+tif_lzw.c
+tif_next.c
+tif_ojpeg.c
+tif_open.c
+tif_packbits.c
+tif_pixarlog.c
+tif_predict.c
+tif_print.c
+tif_read.c
+tif_stream.cxx
+tif_strip.c
+tif_swab.c
+tif_thunder.c
+tif_tile.c
+tif_version.c
+tif_warning.c
+tif_win32.c
+tif_write.c
+tif_zip.c
+Creating library...
+<h3>
+--------------------Configuration: highgui - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\..\_temp\highgui_Debug/highgui.res" /d "_DEBUG" "D:\PR\OpenCV 1.1\otherlibs\highgui\highgui.rc"" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164A.tmp" with contents
+[
+/nologo /MDd /W4 /Gm /Zi /Od /I "..\..\cxcore\include" /I "..\..\cv\include" /I ".\\" /I "..\_graphics\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "CVAPI_EXPORTS" /D "HAVE_PNG" /D "HAVE_TIFF" /D "HAVE_JASPER" /FR"..\..\_temp\highgui_Debug/" /Fp"..\..\_temp\highgui_Debug/highgui.pch" /Yu"_highgui.h" /Fo"..\..\_temp\highgui_Debug/" /Fd"..\..\_temp\highgui_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\highgui\bitstrm.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_base.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_bmp.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_exr.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_jpeg.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_jpeg2000.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_png.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_pxm.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_sunras.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\grfmt_tiff.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\cvcap.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\cvcap_cmu.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\cvcap_images.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\cvcap_vfw.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\cvcap_w32.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\image.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\loadsave.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\utils.cpp"
+"D:\PR\OpenCV 1.1\otherlibs\highgui\window_w32.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164A.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164B.tmp" with contents
+[
+/nologo /MDd /W4 /Gm /Zi /Od /I "..\..\cxcore\include" /I "..\..\cv\include" /I ".\\" /I "..\_graphics\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "CVAPI_EXPORTS" /D "HAVE_PNG" /D "HAVE_TIFF" /D "HAVE_JASPER" /FR"..\..\_temp\highgui_Debug/" /Fp"..\..\_temp\highgui_Debug/highgui.pch" /Yc"_highgui.h" /Fo"..\..\_temp\highgui_Debug/" /Fd"..\..\_temp\highgui_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\otherlibs\highgui\precomp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164B.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164C.tmp" with contents
+[
+cxcored.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib comctl32.lib vfw32.lib /nologo /dll /incremental:yes /pdb:"..\..\bin/highgui110d.pdb" /debug /machine:I386 /nodefaultlib:"libmmdd.lib" /out:"..\..\bin/highgui110d.dll" /implib:"..\..\lib/highguid.lib" /pdbtype:sept /libpath:"..\..\lib" /libpath:"..\_graphics\lib" 
+"\PR\OpenCV 1.1\_temp\highgui_Debug\bitstrm.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_base.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_bmp.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_exr.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_jpeg.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_jpeg2000.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_png.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_pxm.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_sunras.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\grfmt_tiff.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\cvcap.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\cvcap_cmu.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\cvcap_images.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\cvcap_vfw.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\cvcap_w32.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\image.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\loadsave.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\precomp.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\utils.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\window_w32.obj"
+"\PR\OpenCV 1.1\_temp\highgui_Debug\highgui.res"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\libjasperd.lib"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\libjpegd.lib"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\libpngd.lib"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\libtiffd.lib"
+"\PR\OpenCV 1.1\otherlibs\_graphics\lib\zlibd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP164C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+precomp.cpp
+Compiling...
+bitstrm.cpp
+grfmt_base.cpp
+grfmt_bmp.cpp
+grfmt_exr.cpp
+grfmt_jpeg.cpp
+grfmt_jpeg2000.cpp
+grfmt_png.cpp
+grfmt_pxm.cpp
+grfmt_sunras.cpp
+grfmt_tiff.cpp
+cvcap.cpp
+cvcap_cmu.cpp
+cvcap_images.cpp
+cvcap_vfw.cpp
+cvcap_w32.cpp
+image.cpp
+loadsave.cpp
+utils.cpp
+window_w32.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4076: invalid incremental status file "..\..\bin/highgui110d.ilk"; linking nonincrementally
+   Creating library ..\..\lib/highguid.lib and object ..\..\lib/highguid.exp
+LINK : fatal error LNK1207: incompatible PDB format in "D:\PR\OpenCV 1.1\bin\highgui110d.pdb"; delete and rebuild
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+cvsampled.exe - 1 error(s), 62 warning(s)
+</pre>
+</body>
+</html>

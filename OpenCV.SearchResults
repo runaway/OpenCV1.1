@@ -1,0 +1,21 @@
+---- strdup Matches (20 in 10 files) ----
+Blobtrack.cpp (samples\c):                        char* pStr = strdup(pS);
+Cvcap_gstreamer.cpp (otherlibs\highgui):	writer->filename = strdup(name);
+Cvcap_images.cpp (otherlibs\highgui):        name = strdup(filename);
+Cvvidsurv.hpp (cvaux\include):        pNew->pName = strdup(name);
+Cvvidsurv.hpp (cvaux\include):            pP->Str = strdup(p);
+Cvvidsurv.hpp (cvaux\include):        if(p)p->pComment = pComment ? strdup(pComment) : 0;
+Cvvidsurv.hpp (cvaux\include):    void SetTypeName(const char* name){m_pModuleTypeName = strdup(name);}
+Cvvidsurv.hpp (cvaux\include):    void SetModuleName(const char* name){m_pModuleName = strdup(name);}
+Cvvidsurv.hpp (cvaux\include):                if(str)p->Str = strdup(str);
+Cvvidsurv.hpp (cvaux\include):            m_pNickName = strdup(pStr);
+Jas_icc.c (otherlibs\_graphics\src\libjasper):	if (!(txt->string = jas_strdup(othtxt->string)))
+Jas_image.c (otherlibs\_graphics\src\libjasper):	if (!(fmtinfo->name = jas_strdup(name))) {
+Jas_image.c (otherlibs\_graphics\src\libjasper):	if (!(fmtinfo->ext = jas_strdup(ext))) {
+Jas_image.c (otherlibs\_graphics\src\libjasper):	if (!(fmtinfo->desc = jas_strdup(desc))) {
+Jas_string.c (otherlibs\_graphics\src\libjasper):  not-always-available) strdup function. */
+Jas_string.c (otherlibs\_graphics\src\libjasper):char *jas_strdup(const char *s)
+Jas_string.h (otherlibs\_graphics\include\jasper):/* Copy a string (a la strdup). */
+Jas_string.h (otherlibs\_graphics\include\jasper):char *jas_strdup(const char *);
+Jas_tvp.c (otherlibs\_graphics\src\libjasper):	if (!(tvp->buf = jas_strdup(s))) {
+Jpc_enc.c (otherlibs\_graphics\src\libjasper):	if (!(com->data = JAS_CAST(uchar *, jas_strdup(buf)))) {

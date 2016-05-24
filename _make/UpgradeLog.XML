@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="opencv.vs2005">
+</Property><Property Name="解决方案文件" Value="C:\Program Files\OpenCV\_make\opencv.vs2005.sln">
+</Property><Property Name="Date" Value="2009年4月28日">
+</Property><Property Name="Time" Value="13:50">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="opencv.vs2005.sln" Description="文件已成功备份为 C:\Program Files\OpenCV\_make\opencv.vs2005.sln.old">
+</Event><Event ErrorLevel="0" Project="cv.vs2005" Source="..\cv\src\cv.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cv.vs2005" Source="..\cv\src\cv.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cv.vs2005" Source="..\cv\src\cv.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\cv\src\cv.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cv.vs2005" Source="..\cv\src\cv.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cv.vs2005" Source="..\cv\src\cv.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cvaux.vs2005" Source="..\cvaux\src\cvaux.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cvaux.vs2005" Source="..\cvaux\src\cvaux.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cvaux.vs2005" Source="..\cvaux\src\cvaux.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\cvaux\src\cvaux.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cvaux.vs2005" Source="..\cvaux\src\cvaux.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cvaux.vs2005" Source="..\cvaux\src\cvaux.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cvsample.vs2005" Source="..\samples\c\cvsample.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cvsample.vs2005" Source="..\samples\c\cvsample.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cvsample.vs2005" Source="..\samples\c\cvsample.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\samples\c\cvsample.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cvsample.vs2005" Source="..\samples\c\cvsample.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cvsample.vs2005" Source="..\samples\c\cvsample.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cvtest.vs2005" Source="..\tests\cv\src\cvtest.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cvtest.vs2005" Source="..\tests\cv\src\cvtest.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cvtest.vs2005" Source="..\tests\cv\src\cvtest.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\tests\cv\src\cvtest.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cvtest.vs2005" Source="..\tests\cv\src\cvtest.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cvtest.vs2005" Source="..\tests\cv\src\cvtest.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cxcore.vs2005" Source="..\cxcore\src\cxcore.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cxcore.vs2005" Source="..\cxcore\src\cxcore.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cxcore.vs2005" Source="..\cxcore\src\cxcore.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\cxcore\src\cxcore.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cxcore.vs2005" Source="..\cxcore\src\cxcore.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cxcore.vs2005" Source="..\cxcore\src\cxcore.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cxcoretest.vs2005" Source="..\tests\cxcore\src\cxcoretest.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cxcoretest.vs2005" Source="..\tests\cxcore\src\cxcoretest.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cxcoretest.vs2005" Source="..\tests\cxcore\src\cxcoretest.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\tests\cxcore\src\cxcoretest.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cxcoretest.vs2005" Source="..\tests\cxcore\src\cxcoretest.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cxcoretest.vs2005" Source="..\tests\cxcore\src\cxcoretest.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cxts.vs2005" Source="..\tests\cxts\cxts.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="cxts.vs2005" Source="..\tests\cxts\cxts.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="cxts.vs2005" Source="..\tests\cxts\cxts.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\tests\cxts\cxts.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="cxts.vs2005" Source="..\tests\cxts\cxts.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="cxts.vs2005" Source="..\tests\cxts\cxts.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="highgui.vs2005" Source="..\otherlibs\highgui\highgui.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="highgui.vs2005" Source="..\otherlibs\highgui\highgui.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="highgui.vs2005" Source="..\otherlibs\highgui\highgui.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\highgui\highgui.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="highgui.vs2005" Source="..\otherlibs\highgui\highgui.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="highgui.vs2005" Source="..\otherlibs\highgui\highgui.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ml.vs2005" Source="..\ml\src\ml.vs2005.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="ml.vs2005" Source="..\ml\src\ml.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="ml.vs2005" Source="..\ml\src\ml.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\ml\src\ml.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="ml.vs2005" Source="..\ml\src\ml.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="ml.vs2005" Source="..\ml\src\ml.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="zlib.vs2005" Source="..\otherlibs\_graphics\src\zlib\zlib.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="zlib.vs2005" Source="..\otherlibs\_graphics\src\zlib\zlib.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\_graphics\src\zlib\zlib.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="zlib.vs2005" Source="..\otherlibs\_graphics\src\zlib\zlib.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="zlib.vs2005" Source="..\otherlibs\_graphics\src\zlib\zlib.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libpng.vs2005" Source="..\otherlibs\_graphics\src\libpng\libpng.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libpng.vs2005" Source="..\otherlibs\_graphics\src\libpng\libpng.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\_graphics\src\libpng\libpng.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libpng.vs2005" Source="..\otherlibs\_graphics\src\libpng\libpng.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libpng.vs2005" Source="..\otherlibs\_graphics\src\libpng\libpng.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libtiff.vs2005" Source="..\otherlibs\_graphics\src\libtiff\libtiff.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libtiff.vs2005" Source="..\otherlibs\_graphics\src\libtiff\libtiff.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\_graphics\src\libtiff\libtiff.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libtiff.vs2005" Source="..\otherlibs\_graphics\src\libtiff\libtiff.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libtiff.vs2005" Source="..\otherlibs\_graphics\src\libtiff\libtiff.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libjpeg.vs2005" Source="..\otherlibs\_graphics\src\libjpeg\libjpeg.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libjpeg.vs2005" Source="..\otherlibs\_graphics\src\libjpeg\libjpeg.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\_graphics\src\libjpeg\libjpeg.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libjpeg.vs2005" Source="..\otherlibs\_graphics\src\libjpeg\libjpeg.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libjpeg.vs2005" Source="..\otherlibs\_graphics\src\libjpeg\libjpeg.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libjasper.vs2005" Source="..\otherlibs\_graphics\src\libjasper\libjasper.vs2005.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libjasper.vs2005" Source="..\otherlibs\_graphics\src\libjasper\libjasper.vs2005.vcproj" Description="已成功地将项目文件备份为“C:\Program Files\OpenCV\otherlibs\_graphics\src\libjasper\libjasper.vs2005.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libjasper.vs2005" Source="..\otherlibs\_graphics\src\libjasper\libjasper.vs2005.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libjasper.vs2005" Source="..\otherlibs\_graphics\src\libjasper\libjasper.vs2005.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="opencv.vs2005.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="opencv.vs2005.sln" Description="Converted">
+</Event></UpgradeLog>

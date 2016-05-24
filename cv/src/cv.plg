@@ -1,0 +1,356 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cxcore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\..\_temp\cxcore_Debug/cxcore.res" /d "_DEBUG" "D:\PR\OpenCV 1.1\cxcore\src\cxcore.rc"" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1630.tmp" with contents
+[
+/nologo /G6 /MDd /W4 /Gm /Zi /Od /I "." /I "..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "CVAPI_EXPORTS" /FR"..\..\_temp\cxcore_Debug/" /Fp"..\..\_temp\cxcore_Debug/cxcore.pch" /Yu"_cxcore.h" /Fo"..\..\_temp\cxcore_Debug/" /Fd"..\..\_temp\cxcore_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\cxcore\src\cxalloc.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxarithm.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxarray.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxcmp.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxconvert.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxcopy.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxdatastructs.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxdrawing.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxdxt.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxerror.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cximage.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxjacobieigens.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxlogic.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxlut.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxmathfuncs.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxmatmul.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxmatrix.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxmean.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxmeansdv.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxminmaxloc.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxnorm.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxouttext.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxpersistence.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxrand.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxsumpixels.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxsvd.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxswitcher.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxtables.cpp"
+"D:\PR\OpenCV 1.1\cxcore\src\cxutils.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1630.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1631.tmp" with contents
+[
+/nologo /G6 /MDd /W4 /Gm /Zi /Od /I "." /I "..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "CVAPI_EXPORTS" /FR"..\..\_temp\cxcore_Debug/" /Fp"..\..\_temp\cxcore_Debug/cxcore.pch" /Yc"_cxcore.h" /Fo"..\..\_temp\cxcore_Debug/" /Fd"..\..\_temp\cxcore_Debug/" /FD /GZ /c 
+"D:\PR\OpenCV 1.1\cxcore\src\cxprecomp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1631.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1632.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib advapi32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\bin/cxcore110d.pdb" /debug /machine:I386 /nodefaultlib:"libmmdd.lib" /out:"..\..\bin\cxcore110d.dll" /implib:"../../lib/cxcored.lib" 
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxalloc.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxarithm.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxarray.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxcmp.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxconvert.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxcopy.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxdatastructs.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxdrawing.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxdxt.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxerror.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cximage.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxjacobieigens.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxlogic.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxlut.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxmathfuncs.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxmatmul.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxmatrix.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxmean.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxmeansdv.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxminmaxloc.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxnorm.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxouttext.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxpersistence.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxprecomp.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxrand.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxsumpixels.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxsvd.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxswitcher.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxtables.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxutils.obj"
+"\PR\OpenCV 1.1\_temp\cxcore_Debug\cxcore.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1632.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cxprecomp.cpp
+Compiling...
+cxalloc.cpp
+cxarithm.cpp
+cxarray.cpp
+cxcmp.cpp
+cxconvert.cpp
+cxcopy.cpp
+cxdatastructs.cpp
+cxdrawing.cpp
+cxdxt.cpp
+cxerror.cpp
+cximage.cpp
+cxjacobieigens.cpp
+cxlogic.cpp
+cxlut.cpp
+cxmathfuncs.cpp
+cxmatmul.cpp
+cxmatrix.cpp
+cxmean.cpp
+cxmeansdv.cpp
+cxminmaxloc.cpp
+Generating Code...
+Compiling...
+cxnorm.cpp
+cxouttext.cpp
+cxpersistence.cpp
+cxrand.cpp
+cxsumpixels.cpp
+cxsvd.cpp
+cxswitcher.cpp
+D:\PR\OpenCV 1.1\cxcore\src\cxswitcher.cpp(782) : warning C4100: 'threads' : unreferenced formal parameter
+cxtables.cpp
+cxutils.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/cxcored.lib and object ../../lib/cxcored.exp
+<h3>
+--------------------Configuration: cv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\..\_temp\cv_Debug/cv.res" /d "_DEBUG" "D:\PR\OpenCV 1.1\cv\src\cv.rc"" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1636.tmp" with contents
+[
+/nologo /G6 /MDd /W4 /Gm /Zi /Od /I "..\..\cxcore\include" /I "." /I "..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "CVAPI_EXPORTS" /FR"..\..\_temp\cv_Debug/" /Fp"..\..\_temp\cv_Debug/cv.pch" /Yu"_cv.h" /Fo"..\..\_temp\cv_Debug/" /Fd"..\..\_temp\cv_Debug/" /FD /GZ /Zm200 /c 
+"D:\PR\OpenCV 1.1\cv\src\cvadapthresh.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcalccontrasthistogram.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcanny.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcolor.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcontours.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcorner.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcornersubpix.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvderiv.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvfeatureselect.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvfilter.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvfloodfill.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvhistogram.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvimgwarp.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvinpaint.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvmoments.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvmorph.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvpyramids.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsamplers.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsegmentation.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsmooth.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvtemplmatch.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvthresh.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvapprox.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcontourtree.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvconvhull.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvdistransform.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvdominants.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvemd.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvgeometry.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvhough.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvlinefit.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvmatchcontours.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvpgh.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvpyrsegmentation.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvrotcalipers.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvshapedescr.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsubdivision2d.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsurf.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcamshift.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcondens.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvkalman.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvlkpyramid.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvmotempl.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvoptflowbm.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvoptflowhs.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvoptflowlk.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsnakes.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcalcimagehomography.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcalibinit.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvcalibration.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvfundam.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvposit.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvstereobm.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvstereogc.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvundistort.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvhaar.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvaccum.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvkdtree.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvsumpixels.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvswitcher.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvtables.cpp"
+"D:\PR\OpenCV 1.1\cv\src\cvutils.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1636.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1637.tmp" with contents
+[
+/nologo /G6 /MDd /W4 /Gm /Zi /Od /I "..\..\cxcore\include" /I "." /I "..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "CVAPI_EXPORTS" /FR"..\..\_temp\cv_Debug/" /Fp"..\..\_temp\cv_Debug/cv.pch" /Yc"_cv.h" /Fo"..\..\_temp\cv_Debug/" /Fd"..\..\_temp\cv_Debug/" /FD /GZ /Zm200 /c 
+"D:\PR\OpenCV 1.1\cv\src\cvprecomp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1637.tmp" 
+Creating temporary file "C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1638.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib cxcored.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\bin/cv110d.pdb" /debug /machine:I386 /nodefaultlib:"libmmdd.lib" /out:"..\..\bin\cv110d.dll" /implib:"../../lib/cvd.lib" /libpath:"..\..\lib" 
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvadapthresh.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcalccontrasthistogram.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcanny.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcolor.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcontours.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcorner.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcornersubpix.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvderiv.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvfeatureselect.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvfilter.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvfloodfill.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvhistogram.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvimgwarp.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvinpaint.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvmoments.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvmorph.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvpyramids.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsamplers.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsegmentation.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsmooth.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvtemplmatch.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvthresh.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvapprox.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcontourtree.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvconvhull.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvdistransform.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvdominants.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvemd.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvgeometry.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvhough.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvlinefit.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvmatchcontours.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvpgh.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvpyrsegmentation.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvrotcalipers.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvshapedescr.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsubdivision2d.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsurf.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcamshift.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcondens.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvkalman.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvlkpyramid.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvmotempl.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvoptflowbm.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvoptflowhs.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvoptflowlk.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsnakes.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcalcimagehomography.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcalibinit.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvcalibration.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvfundam.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvposit.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvstereobm.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvstereogc.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvundistort.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvhaar.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvaccum.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvkdtree.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvsumpixels.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvswitcher.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvtables.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvutils.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cvprecomp.obj"
+"\PR\OpenCV 1.1\_temp\cv_Debug\cv.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MD\LOCALS~1\Temp\RSP1638.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cvprecomp.cpp
+Compiling...
+cvadapthresh.cpp
+cvcalccontrasthistogram.cpp
+cvcanny.cpp
+cvcolor.cpp
+cvcontours.cpp
+cvcorner.cpp
+cvcornersubpix.cpp
+cvderiv.cpp
+cvfeatureselect.cpp
+cvfilter.cpp
+cvfloodfill.cpp
+cvhistogram.cpp
+cvimgwarp.cpp
+cvinpaint.cpp
+cvmoments.cpp
+cvmorph.cpp
+cvpyramids.cpp
+cvsamplers.cpp
+cvsegmentation.cpp
+cvsmooth.cpp
+Generating Code...
+Compiling...
+cvtemplmatch.cpp
+cvthresh.cpp
+cvapprox.cpp
+cvcontourtree.cpp
+cvconvhull.cpp
+cvdistransform.cpp
+cvdominants.cpp
+cvemd.cpp
+cvgeometry.cpp
+cvhough.cpp
+cvlinefit.cpp
+cvmatchcontours.cpp
+cvpgh.cpp
+cvpyrsegmentation.cpp
+cvrotcalipers.cpp
+cvshapedescr.cpp
+cvsubdivision2d.cpp
+cvsurf.cpp
+cvcamshift.cpp
+cvcondens.cpp
+Generating Code...
+Compiling...
+cvkalman.cpp
+cvlkpyramid.cpp
+cvmotempl.cpp
+cvoptflowbm.cpp
+cvoptflowhs.cpp
+cvoptflowlk.cpp
+cvsnakes.cpp
+cvcalcimagehomography.cpp
+cvcalibinit.cpp
+cvcalibration.cpp
+cvfundam.cpp
+cvposit.cpp
+cvstereobm.cpp
+cvstereogc.cpp
+cvundistort.cpp
+cvhaar.cpp
+cvaccum.cpp
+cvkdtree.cpp
+cvsumpixels.cpp
+cvswitcher.cpp
+Generating Code...
+Compiling...
+cvtables.cpp
+cvutils.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/cvd.lib and object ../../lib/cvd.exp
+
+
+
+<h3>Results</h3>
+cv110d.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

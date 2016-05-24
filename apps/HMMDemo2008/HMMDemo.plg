@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HMMDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP183.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\CV\Include" /I "..\Common" /I "..\..\OtherLibs\highgui" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\..\_temp\HMMDemo_Dbg/" /Fp"..\..\_temp\HMMDemo_Dbg/HMMDemo.pch" /Yu"stdafx.h" /Fo"..\..\_temp\HMMDemo_Dbg/" /Fd"..\..\_temp\HMMDemo_Dbg/" /FD /GZ /c 
+"D:\H.264\OpenCV 3.1\apps\HMMDemo\FaceBase.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP183.tmp" 
+Creating temporary file "C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP184.tmp" with contents
+[
+cvd.lib vfw32.lib highguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\..\_temp\HMMDemo_Dbg/HMMDemod.pdb" /debug /machine:I386 /out:"..\..\bin\HMMDemod.exe" /pdbtype:sept /libpath:"..\..\lib" 
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\Camera.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\ContEHMM.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\FaceBase.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemo.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemoDoc.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemoView.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMParams.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\ImageBaseView.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\InfoDialogs.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\MainFrm.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\MiscParams.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\SamplingParams.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\StdAfx.obj"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP184.tmp"
+<h3>Output Window</h3>
+Compiling...
+FaceBase.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP186.tmp" with contents
+[
+/nologo /o"..\..\_temp\HMMDemo_Dbg/HMMDemo.bsc" 
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\StdAfx.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\Camera.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\ContEHMM.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\FaceBase.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemo.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemoDoc.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMDemoView.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\HMMParams.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\ImageBaseView.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\InfoDialogs.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\MainFrm.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\MiscParams.sbr"
+"\H.264\OpenCV 3.1\_temp\HMMDemo_Dbg\SamplingParams.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Runaway\LOCALS~1\Temp\RSP186.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HMMDemod.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
